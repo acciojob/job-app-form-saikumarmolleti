@@ -8,16 +8,16 @@
 
 <body>
 	<form>
-		<label>Name</label>
-		<input id="Name" >
-		<label>Email</label>
-		<input id="Email" type="email" required >
+		<label for="1name">Name</label>
+		<input id="name" type="text" name="1name" >
+		<label for="1email">Email</labelfor>
+		<input id="email" type="email" name="1email" required >
 		<br>
-		<label>Gender</label>
+		<label for="sex" >Gender</labelfor>
 		<label>Male</label>
-		<input type="radio" name="gender"  required >
+		<input type="radio" name="sex" required >
 		<label>Female</label>
-		<input type="radio" name="gender" required >
+		<input type="radio" name="sex"  required >
 		&nbsp;&nbsp;
 		<label>Laptop Brands</label>
 		<select required>
@@ -27,12 +27,12 @@
 		</select>
 		<br>
 		<label>Age</label>
-		<input id="age" type="number" required >
+		<input id="age" type="number" name="Age" required >
 		<label>DOB</label>
-		<input id="dob" type="date" required>
+		<input id="dob" type="date" name="DOB" required>
 		<br>
 		<label>Portfolio</label>
-		<input type="url">
+		<input type="url" name="Portfolio">
 	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
